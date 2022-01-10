@@ -25,7 +25,7 @@ namespace bank
 
         public void Saque(double quantia)
         {
-            _ = Saldo -= quantia + 5.00;
+            _ = Saldo -= quantia + 6.00;
         }
 
         public override string ToString()
